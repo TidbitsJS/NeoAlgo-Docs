@@ -91,6 +91,57 @@ This action is dangerous
 
 :::
 
+## Quotes
+
+You can use different ways to show a quote type message -
+
+1. Customized
+
+```md
+<blockquote><p>Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p></blockquote>
+```
+
+<blockquote>
+  <p>
+    Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros
+    aliquam consequat. Lorem ipsum dolor sit amet
+  </p>
+</blockquote>
+
+2. Normal
+
+```md
+> Pellentesque elementum dignissim ultricies.
+```
+
+> Pellentesque elementum dignissim ultricies.
+
+3. with Links
+
+```md
+<blockquote><h4><a href="https://github.com/facebook/docusaurus">[RFC] Know more </a></h4><p>Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p></blockquote>
+```
+
+<blockquote>
+  <h4>
+    <a href="https://github.com/facebook/docusaurus">[RFC] Know more </a>
+  </h4>
+  <p>
+    Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit
+    amet
+  </p>
+</blockquote>
+
+## Line
+
+Horizonatal line can be used as -
+
+```md
+<hr />
+```
+
+<hr />
+
 ## React components
 
 Thanks to [MDX](https://mdxjs.com/), you can make your doc more interactive and use React components inside Markdown:
@@ -111,14 +162,15 @@ export const Highlight = ({children, color}) => (
 <Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
 ```
 
-export const Highlight = ({children, color}) => (
+export const Highlight = ({ children, color }) => (
   <span
     style={{
       backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>
+      borderRadius: "2px",
+      color: "#fff",
+      padding: "0.2rem",
+    }}
+  >
     {children}
   </span>
 );
