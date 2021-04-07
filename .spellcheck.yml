@@ -5,8 +5,8 @@ matrix:
   dictionary:
     encoding: utf-8
   pipeline:
-  - pyspelling.filters.markdown:
   - pyspelling.filters.url:
+  - pyspelling.filters.markdown:
     comments: false
     ignores:
     - code
