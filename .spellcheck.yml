@@ -5,16 +5,17 @@ matrix:
   dictionary:
     encoding: utf-8
   pipeline:
-  - pyspelling.filters.url:
   - pyspelling.filters.markdown:
-    comments: false
-    ignores:
-    - code
-    - pre
-    - ul
-    - li
-    - init
-    - npx
+  - pyspelling.filters.html:
+      comments: false
+      attributes:
+        - title
+        - alt
+      ignores:
+        - code
+        - pre
+        - ul
+        - li
   sources:
   - '**/*.md'
   default_encoding: utf-8
