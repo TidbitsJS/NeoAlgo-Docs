@@ -1,5 +1,5 @@
 Docusaurus
-cs
+cd
 md
 mdx
 init
@@ -7,3 +7,10 @@ npx
 Mishra
 neoalgo
 NeoAlgo
+HelloWorld
+src
+docusaurus
+js
+jsx
+url
+Tessract
