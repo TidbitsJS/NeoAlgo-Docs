@@ -8,12 +8,6 @@ matrix:
   - pyspelling.filters.markdown:
   - pyspelling.filters.url:
   - pyspelling.filters.text:
-      ignores:
-        - neoalgo
-        - NeoAlgo
-        - cd
-        - mdx
-        - Mishtra
   - pyspelling.filters.html:
       comments: false
       attributes:
@@ -25,7 +19,13 @@ matrix:
         - pre
         - ul
         - li
+  ignores:
+    - neoalgo
+    - NeoAlgo
+    - cd
+    - mdx
+    - Mishtra
   sources:
-  - '**/*.md'
+    - '**/*.md'
   default_encoding: utf-8
 
