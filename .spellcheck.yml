@@ -15,4 +15,3 @@ matrix:
   - '**/*.md'
   default_encoding: utf-8
 
-  
