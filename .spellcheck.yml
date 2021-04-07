@@ -5,26 +5,15 @@ matrix:
   dictionary:
     encoding: utf-8
   pipeline:
-  - pyspelling.filters.markdown:
   - pyspelling.filters.url:
-  - pyspelling.filters.text:
   - pyspelling.filters.html:
       comments: false
-      attributes:
-        - title
-        - alt
-        - src
       ignores:
         - code
         - pre
         - ul
         - li
-  ignores:
-    - neoalgo
-    - NeoAlgo
-    - cd
-    - mdx
-    - Mishtra
+  - pyspelling.filters.markdown:
   sources:
     - '**/*.md'
   default_encoding: utf-8
