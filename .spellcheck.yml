@@ -11,6 +11,10 @@ matrix:
     ignores:
     - code
     - pre
+    - ul
+    - li
+    - init
+    - npx
   sources:
   - '**/*.md'
   default_encoding: utf-8
