@@ -7,7 +7,6 @@ matrix:
   pipeline:
   - pyspelling.filters.markdown:
   - pyspelling.filters.url:
-  - pyspelling.filters.text:
     comments: false
     ignores:
     - code
