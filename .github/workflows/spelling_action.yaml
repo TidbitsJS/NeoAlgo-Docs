@@ -1,0 +1,7 @@
+matrix:
+- name: Spell Checker
+  aspell:
+    lang: en
+    d: en_US
+  sources:
+  - "**/*.md"
