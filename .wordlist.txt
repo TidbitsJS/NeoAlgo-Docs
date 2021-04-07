@@ -13,4 +13,4 @@ docusaurus
 js
 jsx
 url
-Tessract
+Tesseract
