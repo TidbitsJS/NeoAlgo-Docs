@@ -4,6 +4,7 @@ slug: /remove-it-later
 ---
 ## Step 1: Generate a new Docusaurus site
 
+yu
 If you haven't already, generate a new Docusaurus site using the classic template:
 
 ```shell
