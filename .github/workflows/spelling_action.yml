@@ -12,7 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: rojopolis/spellcheck-github-actions@0.11.0
-    - name: Spell Check
     - uses: dorny/paths-filter@v2.6.0
       id: filter
       with:
