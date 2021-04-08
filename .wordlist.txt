@@ -57,5 +57,3 @@ kernighan
 brian
 armstrong
 sudoku
-caesar
-jarvis
