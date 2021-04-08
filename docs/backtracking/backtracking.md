@@ -2,5 +2,5 @@
 title: Backtracking
 slug: /backtracking
 ---
-thi
+thisk
 This page would serve our needs for documentation of the Backtracking algorithms.
