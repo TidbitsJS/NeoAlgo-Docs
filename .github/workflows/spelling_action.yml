@@ -12,13 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: rojopolis/spellcheck-github-actions@0.11.0
-    - uses:  dorny/paths-filter@v2.6.0
-        id: filter
-        name: Spellcheck
-        with:
-          list-files: shell
-          filters: |
-            md:
-              - added/modified: '**.md'
-      
+    - uses: jitterbit/get-changed-files@v1
+      name: Spellcheck
+      with:
+        source_files: "**/*.md"
+        task_name: Markdown
 
