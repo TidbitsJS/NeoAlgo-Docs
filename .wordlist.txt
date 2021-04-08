@@ -53,10 +53,9 @@ IIIT
 Numyard
 Omdena
 NodeJS
-Kernighan
+kernighan
 brian
 armstrong
 sudoku
 caesar
 jarvis
-
