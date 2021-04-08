@@ -16,5 +16,7 @@ matrix:
         - pre
         - ul
         - li
+  sources:
+    - '**/*.md'
   default_encoding: utf-8
 
