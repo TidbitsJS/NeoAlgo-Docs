@@ -2,5 +2,5 @@
 title: Banker Algorithm
 slug: /operating-systems/banker-algorithm
 ---
-op
+oppos
 This page would serve our needs for documentation of the Banker Algorithm.
