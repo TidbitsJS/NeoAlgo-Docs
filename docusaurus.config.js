@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'NeoAlgo',
-  tagline: 'Bringing all Data Structures and Algorithms under one Roof ⚡',
+  favicon: 'img/favicon.ico',
   url: 'https://neoalgo.tesseractcoding.com/',
   baseUrl: '/',
+  tagline: 'Bringing all Data Structures and Algorithms under one Roof ⚡',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
   organizationName: 'Tesseract Coding', 
   projectName: 'NeoAlgo', 
   onBrokenLinks: 'ignore',
