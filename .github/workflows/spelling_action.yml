@@ -12,13 +12,20 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: rojopolis/spellcheck-github-actions@0.11.0
-    - name: Lint Markdown
-    - uses: dorny/paths-filter@v2
+    - name: Spell Check
+    - uses: dorny/paths-filter@v2.6.0
       id: filter
       with:
+        # Enable listing of files matching each filter.
+        # Paths to files will be available in `${FILTER_NAME}_files` output variable.
+        # Paths will be escaped and space-delimited.
+        # Output is usable as command-line argument list in linux shell
         list-files: shell
+
+        # In this example changed files will be checked by linter.
+        # It doesn't make sense to lint deleted files.
+        # Therefore we specify we are only interested in added or modified files.
         filters: |
           markdown:
             - added|modified: '*.md'
-    
 
